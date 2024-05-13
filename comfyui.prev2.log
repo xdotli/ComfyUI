@@ -1,0 +1,46 @@
+** ComfyUI startup time: 2024-05-08 18:14:59.754195
+[2024-05-08 18:14] ** Platform: Darwin
+[2024-05-08 18:14] ** Python version: 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]
+[2024-05-08 18:14] ** Python executable: /opt/homebrew/anaconda3/bin/python
+[2024-05-08 18:14] ** Log path: /Users/lixiangyi/code/ComfyUI/comfyui.log
+[2024-05-08 18:14] 
+Prestartup times for custom nodes:
+[2024-05-08 18:14]    0.5 seconds: /Users/lixiangyi/code/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-08 18:14] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-05-08 18:15] Set vram state to: SHARED
+[2024-05-08 18:15] Device: mps
+[2024-05-08 18:15] VAE dtype: torch.float32
+[2024-05-08 18:15] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-05-08 18:15] ### Loading: ComfyUI-Manager (V2.24)
+[2024-05-08 18:15] ### ComfyUI Revision: 2148 [10fcd09f] | Released on '2024-04-27'
+[2024-05-08 18:15] 
+Import times for custom nodes:
+[2024-05-08 18:15]    0.0 seconds: /Users/lixiangyi/code/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-05-08 18:15]    0.1 seconds: /Users/lixiangyi/code/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-08 18:15] 
+[2024-05-08 18:15] Starting server
+
+[2024-05-08 18:15] To see the GUI go to: http://127.0.0.1:8188
+[2024-05-08 18:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-05-08 18:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-05-08 18:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-05-08 18:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-05-08 18:16] got prompt
+[2024-05-08 18:16] Failed to validate prompt for output 2e19ea7c-a469-4aee-ba5f-50546f7b6856:
+[2024-05-08 18:16] * CheckpointLoaderSimple 1ab1ba4a-5dfb-4ced-bc06-2b55af930969:
+[2024-05-08 18:16]   - Value not in list: ckpt_name: 'CmShota\CmShotaMix-Unreal.safetensors' not in ['DreamShaper_8_pruned.safetensors']
+[2024-05-08 18:16] * VAELoader d6488046-7e3d-45ce-b0cb-fc461ded790d:
+[2024-05-08 18:16]   - Value not in list: vae_name: '[高饱和] vae-ft-mse-840000.safetensors' not in []
+[2024-05-08 18:16] Output will be ignored
+[2024-05-08 18:16] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-05-08 18:17] got prompt
+[2024-05-08 18:17] Failed to validate prompt for output 2e19ea7c-a469-4aee-ba5f-50546f7b6856:
+[2024-05-08 18:17] * CheckpointLoaderSimple 1ab1ba4a-5dfb-4ced-bc06-2b55af930969:
+[2024-05-08 18:17]   - Value not in list: ckpt_name: 'CmShota\CmShotaMix-Unreal.safetensors' not in ['DreamShaper_8_pruned.safetensors']
+[2024-05-08 18:17] * VAELoader d6488046-7e3d-45ce-b0cb-fc461ded790d:
+[2024-05-08 18:17]   - Value not in list: vae_name: '[高饱和] vae-ft-mse-840000.safetensors' not in []
+[2024-05-08 18:17] Output will be ignored
+[2024-05-08 18:17] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-05-08 22:32] 
+Stopped server

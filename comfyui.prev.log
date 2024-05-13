@@ -1,0 +1,245 @@
+** ComfyUI startup time: 2024-05-12 20:11:50.339988
+[2024-05-12 20:11] ** Platform: Darwin
+[2024-05-12 20:11] ** Python version: 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]
+[2024-05-12 20:11] ** Python executable: /opt/homebrew/anaconda3/bin/python
+[2024-05-12 20:11] ** Log path: /Users/lixiangyi/code/adofaer-all/ComfyUI/comfyui.log
+[2024-05-12 20:11] 
+Prestartup times for custom nodes:
+[2024-05-12 20:11]    0.3 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-12 20:11] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-05-12 20:11] Set vram state to: SHARED
+[2024-05-12 20:11] Device: mps
+[2024-05-12 20:11] VAE dtype: torch.float32
+[2024-05-12 20:11] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-05-12 20:11] ### Loading: ComfyUI-Manager (V2.24)
+[2024-05-12 20:11] ### ComfyUI Revision: 2148 [10fcd09f] | Released on '2024-04-27'
+[2024-05-12 20:11] 
+Import times for custom nodes:
+[2024-05-12 20:11]    0.0 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-05-12 20:11]    0.1 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-12 20:11] 
+[2024-05-12 20:11] Starting server
+
+[2024-05-12 20:11] To see the GUI go to: http://127.0.0.1:8188
+[2024-05-12 20:11] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-05-12 20:11] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-05-12 20:11] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-05-12 20:11] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-05-12 20:12] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-05-12 20:12] got prompt
+[2024-05-12 20:12] model_type EPS
+[2024-05-12 20:12] Using split attention in VAE
+[2024-05-12 20:12] Using split attention in VAE
+[2024-05-12 20:12] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-05-12 20:12] Requested to load SD1ClipModel
+[2024-05-12 20:12] Loading 1 new model
+[2024-05-12 20:12] Requested to load BaseModel
+[2024-05-12 20:12] Loading 1 new model
+[2024-05-12 20:12] 100%|█████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:20<00:00,  2.58it/s]100%|█████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:20<00:00,  1.00s/it]
+[2024-05-12 20:12] Requested to load AutoencoderKL
+[2024-05-12 20:12] Loading 1 new model
+[2024-05-12 20:12] Prompt executed in 29.89 seconds
+[2024-05-12 20:13] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:13] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:13] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:13] Install custom node 'ComfyUI Impact Pack'
+[2024-05-12 20:13] Install: ['https://github.com/ltdrdata/ComfyUI-Impact-Pack']
+[2024-05-12 20:13] Download: git clone 'https://github.com/ltdrdata/ComfyUI-Impact-Pack'
+[2024-05-12 20:13] 0it [00:00, ?it/s]100%|███████████████████████████████████████████████████████████████████████████| 1621.0/1621.0 [00:00<00:00, 2987.67it/s]100%|███████████████████████████████████████████████████████████████████████████| 1621.0/1621.0 [00:00<00:00, 2985.63it/s]100%|██████████████████████████████████████████████████████████████████████████████| 489.0/489.0 [00:00<00:00, 855.34it/s]100%|██████████████████████████████████████████████████████████████████████████████| 489.0/489.0 [00:00<00:00, 855.01it/s]100%|███████████████████████████████████████████████████████████████████████████| 4078.0/4078.0 [00:01<00:00, 3334.98it/s]100%|███████████████████████████████████████████████████████████████████████████| 4078.0/4078.0 [00:01<00:00, 3334.75it/s]100%|███████████████████████████████████████████████████████████████████████████| 2730.0/2730.0 [00:01<00:00, 2195.28it/s]100%|███████████████████████████████████████████████████████████████████████████| 2730.0/2730.0 [00:01<00:00, 2195.13it/s]100%|███████████████████████████████████████████████████████████████████████████| 2730.0/2730.0 [00:01<00:00, 1877.49it/s]
+[2024-05-12 20:13] Install: pip packages
+[2024-05-12 20:13] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'segment-anything']
+[2024-05-12 20:13]  Collecting segment-anything
+[2024-05-12 20:13]    Obtaining dependency information for segment-anything from https://files.pythonhosted.org/packages/75/77/8e0c16abf151a1dd076b562febc0da2ecf1132b0b41826087af96f101f42/segment_anything-1.0-py3-none-any.whl.metadata
+[2024-05-12 20:13]    Downloading segment_anything-1.0-py3-none-any.whl.metadata (487 bytes)
+[2024-05-12 20:13]  Downloading segment_anything-1.0-py3-none-any.whl (36 kB)
+[2024-05-12 20:13]  Installing collected packages: segment-anything
+[2024-05-12 20:13]  Successfully installed segment-anything-1.0
+[2024-05-12 20:13] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'scikit-image']
+[2024-05-12 20:13]           
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'piexif']
+[2024-05-12 20:13]  Collecting piexif
+[2024-05-12 20:13]    Obtaining dependency information for piexif from https://files.pythonhosted.org/packages/2c/d8/6f63147dd73373d051c5eb049ecd841207f898f50a5a1d4378594178f6cf/piexif-1.1.3-py2.py3-none-any.whl.metadata
+[2024-05-12 20:13]    Downloading piexif-1.1.3-py2.py3-none-any.whl.metadata (3.7 kB)
+[2024-05-12 20:13]  Downloading piexif-1.1.3-py2.py3-none-any.whl (20 kB)
+[2024-05-12 20:13]  Installing collected packages: piexif
+[2024-05-12 20:13]  Successfully installed piexif-1.1.3
+[2024-05-12 20:13] [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+[2024-05-12 20:13] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'opencv-python-headless']
+[2024-05-12 20:13]  Collecting opencv-python-headless
+[2024-05-12 20:13]    Obtaining dependency information for opencv-python-headless from https://files.pythonhosted.org/packages/32/0c/a59f2a40d6058ee8126668dc5dff6977c913f6ecd21dbd15b41563409a18/opencv_python_headless-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl.metadata
+[2024-05-12 20:13]    Downloading opencv_python_headless-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl.metadata (20 kB)
+[2024-05-12 20:13]   Downloading opencv_python_headless-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl (35.4 MB)
+[2024-05-12 20:13]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.4/35.4 MB 57.1 MB/s eta 0:00:00
+[2024-05-12 20:13]  Installing collected packages: opencv-python-headless
+[2024-05-12 20:13]  Successfully installed opencv-python-headless-4.9.0.80
+[2024-05-12 20:13] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'GitPython']
+[2024-05-12 20:13]    
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'scipy>=1.11.4']
+[2024-05-12 20:13]  Collecting scipy>=1.11.4
+[2024-05-12 20:13]    Obtaining dependency information for scipy>=1.11.4 from https://files.pythonhosted.org/packages/51/b6/188c8974d747b2998d672040c5b62a635a72240c515dc4577a28e1dedc80/scipy-1.13.0-cp311-cp311-macosx_12_0_arm64.whl.metadata
+[2024-05-12 20:13]    Downloading scipy-1.13.0-cp311-cp311-macosx_12_0_arm64.whl.metadata (60 kB)
+[2024-05-12 20:13]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.6/60.6 kB 2.9 MB/s eta 0:00:00
+[2024-05-12 20:13]   Downloading scipy-1.13.0-cp311-cp311-macosx_12_0_arm64.whl (30.3 MB)
+[2024-05-12 20:13]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 30.3/30.3 MB 39.9 MB/s eta 0:00:00
+[2024-05-12 20:13]  Installing collected packages: scipy
+[2024-05-12 20:13]    Attempting uninstall: scipy
+[2024-05-12 20:13]      Found existing installation: scipy 1.11.1
+[2024-05-12 20:13]      Uninstalling scipy-1.11.1:
+[2024-05-12 20:13]        Successfully uninstalled scipy-1.11.1
+[2024-05-12 20:13] [2024-05-12 20:13] [!]  Successfully installed scipy-1.13.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+[2024-05-12 20:13] [!] gensim 4.3.0 requires FuzzyTM>=0.4.0, which is not installed.
+[2024-05-12 20:13] [2024-05-12 20:13] Install: install script
+[2024-05-12 20:13] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', 'install.py']
+[!] 
+[2024-05-12 20:13] 100%|██████████| 52026019/52026019 [00:00<00:00, 87956955.88it/s]
+[2024-05-12 20:13] [!] 
+[2024-05-12 20:13] 100%|██████████| 22507707/22507707 [00:00<00:00, 68876426.62it/s]
+[2024-05-12 20:13] [!] 
+[2024-05-12 20:13] 100%|██████████| 54827683/54827683 [00:00<00:00, 84419227.74it/s]
+[2024-05-12 20:14] [2024-05-12 20:14] [!]  ### ComfyUI-Impact-Pack: Check dependencies
+
+[2024-05-12 20:14] [2024-05-12 20:14]  ### ComfyUI-Impact-Pack: Updating subpack
+[2024-05-12 20:14]  [Impact Pack] EXECUTE: ['/opt/homebrew/anaconda3/bin/python', 'install.py'] in '/Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-05-12 20:14]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/f02b8a23e6f12bd2c1b1f6714f66f984c728fa41ed749d033e7d6dea511ef70c?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27face_yolov8m.pt%3B+filename%3D%22face_yolov8m.pt%22%3B&Expires=1715827538&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxNTgyNzUzOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlL2YwMmI4YTIzZTZmMTJiZDJjMWIxZjY3MTRmNjZmOTg0YzcyOGZhNDFlZDc0OWQwMzNlN2Q2ZGVhNTExZWY3MGM%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=N-MhjS6USo3sWfbypSktCpnnB-GhXc4j5OYSfpGih835TFreSLGaXkukLyXYro47ziOC9ylJgTQ%7EyvlsrG48gYijTkbMRQsCvJiNG5Pe1-NHnP7ez3Tu%7EeGflG2Brl7QU29miHh8Ms12wmsHHohyVgM7Z8PjScHDAK6IBA1-N9rd4kBtN7tTGyhkqfpQn2FLZW9ObEPSQLybdy0DO62M4ee38wMUeNNNVNDh5unUQ6avIq-G5UIdiGIMdfxScJ9toaJ96a86aSHSXGMsTaMCkyxiTopvneZ6KMZ3Mxt3L2nMY4X5Jj3S14kz2OhCxw5jquL6Gi2%7EghB3bjcnXGLl9A__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/lixiangyi/code/adofaer-all/ComfyUI/models/ultralytics/bbox/face_yolov8m.pt
+[2024-05-12 20:14]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/5c4faf8d17286ace2c3d3346c6d0d4a0c8d62404955263a7ae95c1dd7eb877af?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27hand_yolov8s.pt%3B+filename%3D%22hand_yolov8s.pt%22%3B&Expires=1715827541&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxNTgyNzU0MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlLzVjNGZhZjhkMTcyODZhY2UyYzNkMzM0NmM2ZDBkNGEwYzhkNjI0MDQ5NTUyNjNhN2FlOTVjMWRkN2ViODc3YWY%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=mrU31I819pGsRc40kefkh7nDVpnwWsgw7NjOjJzU2XRpc2tVu-nDZvuB0fJPAtcqq2ni6MfpHTv2ftBZxWwe9aKyDzqFesRKLhCCQx8tiFLZ1QI9GErjzsaHcc53n4aFP4W5IIZI9xg8C6EkKZws7uBMBdHdjsfTXwNh9A2ICzAt9gDtMx94gsZ7QM0Rchwk2zXLkjU1SakooIDrxVz2AbhD6e-woKlSP-nCHW3QO363o5iPvP6tJhmGMQdJShGxpNIGyNZe3GpX3eZrYhVSNgKYtmATZcTm0pSHLg6exwAyy6CSEUnA0SzhFPHQMrIcJR1r35adFEV0Ycz59dMXYA__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/lixiangyi/code/adofaer-all/ComfyUI/models/ultralytics/bbox/hand_yolov8s.pt
+[2024-05-12 20:14]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/9d881ec50b831f546e37977081b18f4e3bf65664aec163f97a311b0955499795?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27person_yolov8m-seg.pt%3B+filename%3D%22person_yolov8m-seg.pt%22%3B&Expires=1715827250&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxNTgyNzI1MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlLzlkODgxZWM1MGI4MzFmNTQ2ZTM3OTc3MDgxYjE4ZjRlM2JmNjU2NjRhZWMxNjNmOTdhMzExYjA5NTU0OTk3OTU%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=DwqSAyWmb3l9luFvutAwxl%7E3diB6ZslF076QCCbFdBq3mtrTCwuUyhQrCA9O1h7V45FdMrUDub9ZH48rj0EH6WR227drrVzpVkHlcTW5ImA8HJ890tUQrFV19BDtwDiN%7EXISpHoO1iv0fy5wmfZY5KOBO2gsX3E2twJEYEQZxEsFNOMXmodIDYtwA1YRN6JyOJa5EbgfpjrA7nzdjln2v2W-HYCTlqjsSs3ArDJZtIRiR4TtXTOgwj6o9NIiYnfNqgQoIpaTECHYndn0w8B-Umi3MS4aF1bG-c2RVC8av6CaZ0q-WVP5iWwoN%7Eq0YdongDffIDpMkHQTwbPoL4iSgA__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/lixiangyi/code/adofaer-all/ComfyUI/models/ultralytics/segm/person_yolov8m-seg.pt
+[2024-05-12 20:14]  req_path: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-05-12 20:14]  [Impact Pack] EXECUTE: ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', '-r', 'requirements.txt'] in '/Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-05-12 20:14]  Collecting ultralytics!=8.2.5 (from -r requirements.txt (line 1))
+[2024-05-12 20:14]    Obtaining dependency information for ultralytics!=8.2.5 from https://files.pythonhosted.org/packages/2c/40/93380a988002208fa0b436c2144943f7e2bb04b167668b59523d75cd7372/ultralytics-8.2.14-py3-none-any.whl.metadata
+[2024-05-12 20:14]    Downloading ultralytics-8.2.14-py3-none-any.whl.metadata (40 kB)
+[2024-05-12 20:14]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.7/40.7 kB 2.3 MB/s eta 0:00:00
+[2024-05-12 20:14]             Collecting thop>=0.1.1 (from ultralytics!=8.2.5->-r requirements.txt (line 1))
+[2024-05-12 20:14]    Obtaining dependency information for thop>=0.1.1 from https://files.pythonhosted.org/packages/bb/0f/72beeab4ff5221dc47127c80f8834b4bcd0cb36f6ba91c0b1d04a1233403/thop-0.1.1.post2209072238-py3-none-any.whl.metadata
+[2024-05-12 20:14]    Downloading thop-0.1.1.post2209072238-py3-none-any.whl.metadata (2.7 kB)
+[2024-05-12 20:14]                           Downloading ultralytics-8.2.14-py3-none-any.whl (756 kB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 756.6/756.6 kB 19.6 MB/s eta 0:00:00
+[2024-05-12 20:14]  Downloading thop-0.1.1.post2209072238-py3-none-any.whl (15 kB)
+[2024-05-12 20:14]  Installing collected packages: thop, ultralytics
+[2024-05-12 20:14]  Successfully installed thop-0.1.1.post2209072238 ultralytics-8.2.14
+[2024-05-12 20:14]  req_path: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-05-12 20:14]  [Impact Pack] EXECUTE: ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', '-r', 'requirements.txt'] in '/Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-05-12 20:14]                                        req_path: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/requirements.txt
+[2024-05-12 20:14]  ### ComfyUI-Impact-Pack: Check basic models
+[2024-05-12 20:14]  Downloading https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth to /Users/lixiangyi/code/adofaer-all/ComfyUI/models/sams/sam_vit_b_01ec64.pth
+[2024-05-12 20:14] 100%|██████████| 375042383/375042383 [00:04<00:00, 91197869.14it/s]
+[2024-05-12 20:14]  ### ComfyUI-Impact-Pack: onnx model directory created (/Users/lixiangyi/code/adofaer-all/ComfyUI/models/onnx)
+[2024-05-12 20:14] Installation was successful.
+[2024-05-12 20:14] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'ultralytics']
+[2024-05-12 20:14]                                       After restarting ComfyUI, please refresh the browser.
+[2024-05-12 20:14] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:14] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:14] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:14] Install custom node 'ComfyUI_IPAdapter_plus'
+[2024-05-12 20:14] Install: ['https://github.com/cubiq/ComfyUI_IPAdapter_plus']
+[2024-05-12 20:14] Download: git clone 'https://github.com/cubiq/ComfyUI_IPAdapter_plus'
+0it [00:00, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████| 337.0/337.0 [00:00<00:00, 642.21it/s]100%|██████████████████████████████████████████████████████████████████████████████| 337.0/337.0 [00:00<00:00, 641.98it/s]100%|████████████████████████████████████████████████████████████████████████████████| 89.0/89.0 [00:00<00:00, 165.69it/s]100%|████████████████████████████████████████████████████████████████████████████████| 89.0/89.0 [00:00<00:00, 165.64it/s]100%|██████████████████████████████████████████████████████████████████████████████| 665.0/665.0 [00:01<00:00, 510.02it/s]100%|██████████████████████████████████████████████████████████████████████████████| 665.0/665.0 [00:01<00:00, 509.93it/s]100%|██████████████████████████████████████████████████████████████████████████████| 454.0/454.0 [00:01<00:00, 342.42it/s]100%|██████████████████████████████████████████████████████████████████████████████| 454.0/454.0 [00:01<00:00, 342.39it/s]100%|██████████████████████████████████████████████████████████████████████████████| 454.0/454.0 [00:01<00:00, 285.41it/s]
+[2024-05-12 20:14] Installation was successful.
+[2024-05-12 20:14] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'insightface']
+[2024-05-12 20:14]  Collecting insightface
+[2024-05-12 20:14]    Downloading insightface-0.7.3.tar.gz (439 kB)
+[2024-05-12 20:14]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 439.5/439.5 kB 7.3 MB/s eta 0:00:00
+[2024-05-12 20:14]    Installing build dependencies: started
+[2024-05-12 20:14]    Installing build dependencies: finished with status 'done'
+[2024-05-12 20:14]    Getting requirements to build wheel: started
+[2024-05-12 20:14]    Getting requirements to build wheel: finished with status 'done'
+[2024-05-12 20:14]    Installing backend dependencies: started
+[2024-05-12 20:14]    Installing backend dependencies: finished with status 'done'
+[2024-05-12 20:14]    Preparing metadata (pyproject.toml): started
+[2024-05-12 20:14]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-05-12 20:14]   Collecting onnx (from insightface)
+[2024-05-12 20:14]    Obtaining dependency information for onnx from https://files.pythonhosted.org/packages/a4/b8/7accf3f93eee498711f0b7f07f6e93906e031622473e85ce9cd3578f6a92/onnx-1.16.0-cp311-cp311-macosx_10_15_universal2.whl.metadata
+[2024-05-12 20:14]    Downloading onnx-1.16.0-cp311-cp311-macosx_10_15_universal2.whl.metadata (16 kB)
+[2024-05-12 20:14]         Collecting easydict (from insightface)
+[2024-05-12 20:14]    Obtaining dependency information for easydict from https://files.pythonhosted.org/packages/05/ec/fa6963f1198172c2b75c9ab6ecefb3045991f92f75f5eb41b6621b198123/easydict-1.13-py3-none-any.whl.metadata
+[2024-05-12 20:14]    Downloading easydict-1.13-py3-none-any.whl.metadata (4.2 kB)
+[2024-05-12 20:14]  Collecting cython (from insightface)
+[2024-05-12 20:14]    Obtaining dependency information for cython from https://files.pythonhosted.org/packages/b6/83/b0a63fc7b315edd46821a1a381d18765c1353d201246da44558175cddd56/Cython-3.0.10-py2.py3-none-any.whl.metadata
+[2024-05-12 20:14]    Using cached Cython-3.0.10-py2.py3-none-any.whl.metadata (3.2 kB)
+[2024-05-12 20:14]  Collecting albumentations (from insightface)
+[2024-05-12 20:14]    Obtaining dependency information for albumentations from https://files.pythonhosted.org/packages/d3/23/70ea1667f96586fb21645a70b880703586a6133e6e3c0bcf7cf06499b594/albumentations-1.4.6-py3-none-any.whl.metadata
+[2024-05-12 20:14]    Downloading albumentations-1.4.6-py3-none-any.whl.metadata (37 kB)
+[2024-05-12 20:14]   Collecting scikit-image (from insightface)
+[2024-05-12 20:14]    Obtaining dependency information for scikit-image from https://files.pythonhosted.org/packages/b9/cf/9e5828fa29791bf7ac5c3fad3637ebb02f237a1c3de8233bd6a33c2c4aac/scikit_image-0.23.2-cp311-cp311-macosx_12_0_arm64.whl.metadata
+[2024-05-12 20:14]    Downloading scikit_image-0.23.2-cp311-cp311-macosx_12_0_arm64.whl.metadata (14 kB)
+[2024-05-12 20:14]    Collecting scikit-learn (from insightface)
+[2024-05-12 20:14]    Obtaining dependency information for scikit-learn from https://files.pythonhosted.org/packages/f2/30/1299e84d2ba3bc735baf17cebbf5b9d55144243c41b3ec6559ce3cf61e23/scikit_learn-1.4.2-cp311-cp311-macosx_12_0_arm64.whl.metadata
+[2024-05-12 20:14]    Downloading scikit_learn-1.4.2-cp311-cp311-macosx_12_0_arm64.whl.metadata (11 kB)
+[2024-05-12 20:14]  Collecting pydantic>=2.7.0 (from albumentations->insightface)
+[2024-05-12 20:14]    Obtaining dependency information for pydantic>=2.7.0 from https://files.pythonhosted.org/packages/ed/76/9a17032880ed27f2dbd490c77a3431cbc80f47ba81534131de3c2846e736/pydantic-2.7.1-py3-none-any.whl.metadata
+[2024-05-12 20:14]    Downloading pydantic-2.7.1-py3-none-any.whl.metadata (107 kB)
+[2024-05-12 20:14]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.3/107.3 kB 12.4 MB/s eta 0:00:00
+[2024-05-12 20:14]    Collecting imageio>=2.33 (from scikit-image->insightface)
+[2024-05-12 20:14]    Obtaining dependency information for imageio>=2.33 from https://files.pythonhosted.org/packages/a3/b6/39c7dad203d9984225f47e0aa39ac3ba3a47c77a02d0ef2a7be691855a06/imageio-2.34.1-py3-none-any.whl.metadata
+[2024-05-12 20:14]    Downloading imageio-2.34.1-py3-none-any.whl.metadata (4.9 kB)
+[2024-05-12 20:14]    Collecting lazy-loader>=0.4 (from scikit-image->insightface)
+[2024-05-12 20:14]    Obtaining dependency information for lazy-loader>=0.4 from https://files.pythonhosted.org/packages/83/60/d497a310bde3f01cb805196ac61b7ad6dc5dcf8dce66634dc34364b20b4f/lazy_loader-0.4-py3-none-any.whl.metadata
+[2024-05-12 20:14]    Downloading lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+[2024-05-12 20:14]                 Collecting pydantic-core==2.18.2 (from pydantic>=2.7.0->albumentations->insightface)
+[2024-05-12 20:14]    Obtaining dependency information for pydantic-core==2.18.2 from https://files.pythonhosted.org/packages/5d/61/bfc32484eac102051ef85f5e648c9777f57398c83e5f87e3c0a420a6550b/pydantic_core-2.18.2-cp311-cp311-macosx_11_0_arm64.whl.metadata
+[2024-05-12 20:14]    Downloading pydantic_core-2.18.2-cp311-cp311-macosx_11_0_arm64.whl.metadata (6.5 kB)
+[2024-05-12 20:14]   Downloading albumentations-1.4.6-py3-none-any.whl (153 kB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.5/153.5 kB 17.2 MB/s eta 0:00:00
+[2024-05-12 20:14]  Downloading scikit_image-0.23.2-cp311-cp311-macosx_12_0_arm64.whl (13.3 MB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 65.8 MB/s eta 0:00:00
+[2024-05-12 20:14]  Downloading scikit_learn-1.4.2-cp311-cp311-macosx_12_0_arm64.whl (10.5 MB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.5/10.5 MB 77.7 MB/s eta 0:00:00
+[2024-05-12 20:14]  Using cached Cython-3.0.10-py2.py3-none-any.whl (1.2 MB)
+[2024-05-12 20:14]  Downloading easydict-1.13-py3-none-any.whl (6.8 kB)
+[2024-05-12 20:14]  Downloading onnx-1.16.0-cp311-cp311-macosx_10_15_universal2.whl (16.5 MB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 46.7 MB/s eta 0:00:00
+[2024-05-12 20:14]  Downloading imageio-2.34.1-py3-none-any.whl (313 kB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 313.5/313.5 kB 24.9 MB/s eta 0:00:00
+[2024-05-12 20:14]  Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+[2024-05-12 20:14]  Downloading pydantic-2.7.1-py3-none-any.whl (409 kB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 409.3/409.3 kB 22.7 MB/s eta 0:00:00
+[2024-05-12 20:14]  Downloading pydantic_core-2.18.2-cp311-cp311-macosx_11_0_arm64.whl (1.8 MB)
+[2024-05-12 20:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 58.4 MB/s eta 0:00:00
+[2024-05-12 20:14]  Building wheels for collected packages: insightface
+[2024-05-12 20:14]    Building wheel for insightface (pyproject.toml): started
+[2024-05-12 20:14]    Building wheel for insightface (pyproject.toml): finished with status 'done'
+[2024-05-12 20:15]    Created wheel for insightface: filename=insightface-0.7.3-cp311-cp311-macosx_11_0_arm64.whl size=865029 sha256=0f4194c9c5a91c42e98c688a96711a63113cb6f7e784c946cf3659d4e0f140a9
+[2024-05-12 20:15]    Stored in directory: /Users/lixiangyi/Library/Caches/pip/wheels/27/d8/22/f52d858d16cd06e7b2e6aad34a1777dcfaf000be833bbf8146
+[2024-05-12 20:15]  Successfully built insightface
+[2024-05-12 20:15]  Installing collected packages: easydict, pydantic-core, onnx, lazy-loader, imageio, cython, scikit-learn, scikit-image, pydantic, albumentations, insightface
+[2024-05-12 20:15]    Attempting uninstall: pydantic-core
+[2024-05-12 20:15]      Found existing installation: pydantic_core 2.14.6
+[2024-05-12 20:15]      Uninstalling pydantic_core-2.14.6:
+[2024-05-12 20:15]        Successfully uninstalled pydantic_core-2.14.6
+[2024-05-12 20:15]    Attempting uninstall: lazy-loader
+[2024-05-12 20:15]      Found existing installation: lazy_loader 0.2
+[2024-05-12 20:15]      Uninstalling lazy_loader-0.2:
+[2024-05-12 20:15]        Successfully uninstalled lazy_loader-0.2
+[2024-05-12 20:15]    Attempting uninstall: imageio
+[2024-05-12 20:15]      Found existing installation: imageio 2.31.1
+[2024-05-12 20:15]      Uninstalling imageio-2.31.1:
+[2024-05-12 20:15]        Successfully uninstalled imageio-2.31.1
+[2024-05-12 20:15]    Attempting uninstall: scikit-learn
+[2024-05-12 20:15]      Found existing installation: scikit-learn 1.3.0
+[2024-05-12 20:15]      Uninstalling scikit-learn-1.3.0:
+[2024-05-12 20:15]        Successfully uninstalled scikit-learn-1.3.0
+[2024-05-12 20:15]    Attempting uninstall: scikit-image
+[2024-05-12 20:15]      Found existing installation: scikit-image 0.20.0
+[2024-05-12 20:15]      Uninstalling scikit-image-0.20.0:
+[2024-05-12 20:15]        Successfully uninstalled scikit-image-0.20.0
+[2024-05-12 20:15]    Attempting uninstall: pydantic
+[2024-05-12 20:15]      Found existing installation: pydantic 2.5.3
+[2024-05-12 20:15]      Uninstalling pydantic-2.5.3:
+[2024-05-12 20:15]        Successfully uninstalled pydantic-2.5.3
+[2024-05-12 20:15] [2024-05-12 20:15] [!]  Successfully installed albumentations-1.4.6 cython-3.0.10 easydict-1.13 imageio-2.34.1 insightface-0.7.3 lazy-loader-0.4 onnx-1.16.0 pydantic-2.7.1 pydantic-core-2.18.2 scikit-image-0.23.2 scikit-learn-1.4.2
+[2024-05-12 20:15] ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+[2024-05-12 20:15] [!] tables 3.8.0 requires blosc2~=2.0.0, which is not installed.
+[2024-05-12 20:15] [!] anaconda-cloud-auth 0.1.3 requires pydantic<2.0, but you have pydantic 2.7.1 which is incompatible.
+[2024-05-12 20:15] After restarting ComfyUI, please refresh the browser.
+[2024-05-12 20:15] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:15] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:15] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json

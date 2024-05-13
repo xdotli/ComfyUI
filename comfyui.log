@@ -1,0 +1,99 @@
+** ComfyUI startup time: 2024-05-12 20:16:40.551381
+[2024-05-12 20:16] ** Platform: Darwin
+[2024-05-12 20:16] ** Python version: 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]
+[2024-05-12 20:16] ** Python executable: /opt/homebrew/anaconda3/bin/python
+[2024-05-12 20:16] ** Log path: /Users/lixiangyi/code/adofaer-all/ComfyUI/comfyui.log
+[2024-05-12 20:16] 
+Prestartup times for custom nodes:
+[2024-05-12 20:16]    0.2 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-12 20:16] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-05-12 20:16] Set vram state to: SHARED
+[2024-05-12 20:16] Device: mps
+[2024-05-12 20:16] VAE dtype: torch.float32
+[2024-05-12 20:16] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-05-12 20:16] ### Loading: ComfyUI-Manager (V2.24)
+[2024-05-12 20:16] ### ComfyUI Revision: 2148 [10fcd09f] | Released on '2024-04-27'
+[2024-05-12 20:16] ### Loading: ComfyUI-Impact-Pack (V5.5.6)
+[2024-05-12 20:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-05-12 20:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-05-12 20:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-05-12 20:16] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-05-12 20:16] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.5)
+[2024-05-12 20:16] [Impact Pack] Wildcards loading done.
+[2024-05-12 20:16] 
+Import times for custom nodes:
+[2024-05-12 20:16]    0.0 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-05-12 20:16]    0.0 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-05-12 20:16]    0.1 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-12 20:16]    1.5 seconds: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-05-12 20:16] 
+[2024-05-12 20:16] Starting server
+
+[2024-05-12 20:16] To see the GUI go to: http://127.0.0.1:8188
+[2024-05-12 20:17] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-05-12 20:17] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:17] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:17] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:17] Update ComfyUI
+[2024-05-12 20:17] comfy_path: /Users/lixiangyi/code/adofaer-all/ComfyUI
+[2024-05-12 20:17] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:17] Start updating...[2KUpdating: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager[2KUpdating: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack[2KUpdating: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plusInstall: pip packages
+[2024-05-12 20:17] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'GitPython']
+[2024-05-12 20:17]    
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'PyGithub']
+[2024-05-12 20:17]               
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'matrix-client==0.4.0']
+[2024-05-12 20:17]       [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+[2024-05-12 20:17] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'huggingface-hub>0.20']
+[2024-05-12 20:17]             [2KUpdated: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-12 20:17] [2KUpdate done.
+[2024-05-12 20:18] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:18] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:20] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:20] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:20] Uninstall custom node 'ComfyUI Impact Pack'
+[2024-05-12 20:20] Uninstall: ['https://github.com/ltdrdata/ComfyUI-Impact-Pack']
+[2024-05-12 20:20] Uninstallation was successful.
+[2024-05-12 20:20] After restarting ComfyUI, please refresh the browser.
+[2024-05-12 20:20] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:20] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:21] Install custom node 'ComfyUI Impact Pack'
+[2024-05-12 20:21] Install: ['https://github.com/ltdrdata/ComfyUI-Impact-Pack']
+[2024-05-12 20:21] Download: git clone 'https://github.com/ltdrdata/ComfyUI-Impact-Pack'
+[2024-05-12 20:21] 0it [00:00, ?it/s]100%|███████████████████████████████████████████████████████████████████████████| 1621.0/1621.0 [00:00<00:00, 2838.57it/s]100%|███████████████████████████████████████████████████████████████████████████| 1621.0/1621.0 [00:00<00:00, 2837.53it/s]100%|██████████████████████████████████████████████████████████████████████████████| 489.0/489.0 [00:00<00:00, 842.40it/s]100%|██████████████████████████████████████████████████████████████████████████████| 489.0/489.0 [00:00<00:00, 842.14it/s]100%|███████████████████████████████████████████████████████████████████████████| 4078.0/4078.0 [00:02<00:00, 1530.70it/s]100%|███████████████████████████████████████████████████████████████████████████| 4078.0/4078.0 [00:02<00:00, 1530.58it/s]100%|███████████████████████████████████████████████████████████████████████████| 2730.0/2730.0 [00:02<00:00, 1011.99it/s]100%|███████████████████████████████████████████████████████████████████████████| 2730.0/2730.0 [00:02<00:00, 1011.95it/s]100%|████████████████████████████████████████████████████████████████████████████| 2730.0/2730.0 [00:02<00:00, 970.48it/s]
+[2024-05-12 20:21] Install: pip packages
+[2024-05-12 20:21] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'segment-anything']
+[2024-05-12 20:21]  
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'scikit-image']
+[2024-05-12 20:21]          
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'piexif']
+[2024-05-12 20:21]  [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+[2024-05-12 20:21] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'opencv-python-headless']
+[2024-05-12 20:21]   
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'GitPython']
+[2024-05-12 20:21]    
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'scipy>=1.11.4']
+[2024-05-12 20:21]   Install: install script
+[2024-05-12 20:21] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', 'install.py']
+[2024-05-12 20:21]  ### ComfyUI-Impact-Pack: Check dependencies
+[2024-05-12 20:21]  ### ComfyUI-Impact-Pack: Updating subpack
+[2024-05-12 20:21]  [Impact Pack] EXECUTE: ['/opt/homebrew/anaconda3/bin/python', 'install.py'] in '/Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-05-12 20:21]  req_path: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-05-12 20:21]  req_path: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-05-12 20:21]  req_path: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/requirements.txt
+[2024-05-12 20:21]  ### ComfyUI-Impact-Pack: Check basic models
+[2024-05-12 20:21] Installation was successful.
+[2024-05-12 20:21] 
+## ComfyUI-Manager: EXECUTE => ['/opt/homebrew/anaconda3/bin/python', '-m', 'pip', 'install', 'ultralytics']
+[2024-05-12 20:21]                                       After restarting ComfyUI, please refresh the browser.
+[2024-05-12 20:21] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:21] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:22] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-05-12 20:22] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-12 20:22] FETCH DATA from: /Users/lixiangyi/code/adofaer-all/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
